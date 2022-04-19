@@ -3,8 +3,8 @@ public class TestaAluno{
        
         Curso curso = new Curso(18,"Ciencia da Computacao");
         
-        Aluno a = new Aluno ("Joao Lacerda","400.289.221-01", 25, curso);
-        Aluno b = new Aluno ("Gabriel Victor","72727227-72",25, new Curso(17, "Engenharia"));
+        Aluno a = new Aluno ("Victoria Silva","800.999.111-03", 25, curso);
+        Aluno b = new Aluno ("Bruna Fernandes","72727227-72",25, new Curso(17, "Engenharia"));
         System.out.println("Dados do aluno: "+a.getNomeAluno());
         System.out.println("CPF: "+a.getCpfAluno());
         System.out.println("Idade: "+a.getIdadeAluno());
